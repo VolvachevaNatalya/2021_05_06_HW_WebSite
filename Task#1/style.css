@@ -1,0 +1,32 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 25px;
+    background-image: linear-gradient(to right, #e4eaf8, #E4EfE9);
+
+}
+
+dd {
+    padding-bottom: 25px;
+    font-style: italic;
+}
+dt {
+    font-weight: 700;
+}
+dt::before{
+    content: "<";
+}
+.definitions dt::after{
+    content: ">";
+}
+.questions dt::after, .questions dt::before {
+    content: "";
+}
+hr{
+    border:none;
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -20px auto 20px;
+}
+
